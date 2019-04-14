@@ -44,7 +44,7 @@ def callback(bot, update):
 if __name__ == '__main__':
     model.make_database()
 
-    TOKEN = '872180993:AAEslY9u_jK3enrwFgvp-bnk2P0qGjUYJ5I'
+    TOKEN = '<TOKEN>'
     REQ = {'proxy_url': 'socks5h://127.0.0.1:9050'}
     updater = Updater(token=TOKEN, request_kwargs=REQ)
     dispatcher = updater.dispatcher
